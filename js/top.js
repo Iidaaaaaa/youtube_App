@@ -1,6 +1,6 @@
 let Genre = "音楽";
 
-const key = "AIzaSyClFvpitcXamidqH3lf2UR9CQA8Wp2ScSQ"; // 自分のキーに書き換えます。
+const key = "AIzaSyBFCqGb2dKuDBC5eLcuhrecQesJ5VgRu_Y"; // 自分のキーに書き換えます。
 const num = 5;
 const part = "snippet";
 const type = "video";
