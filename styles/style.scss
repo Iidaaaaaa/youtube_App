@@ -1,0 +1,133 @@
+.header {
+  background-color: #33aacc;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100vw;
+  &__back {
+    width: 30px;
+    margin-left: 20px;
+  }
+  &__search {
+    width: 30px;
+    margin-left: 20px;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background-color: #33aacc;
+  padding: 14px 0;
+
+  &__jes {
+    width: 25px;
+    height: 30px;
+    margin: 0 auto;
+  }
+}
+// ------
+
+.main {
+  position: relative;
+  margin-top: 100px;
+  &__inner {
+    width: calc(100vw - 30px);
+    margin: 0 auto;
+  }
+  &__title {
+    width: fit-content;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  margin: 0 auto;
+  width: fit-content;
+  &__content {
+    max-width: 250px;
+    margin: 32px 0;
+  }
+
+  &__image {
+    width: 250px;
+    height: auto;
+    background-color: #000;
+  }
+  &__title {
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em; // 1行の高さを指定
+    height: 2.4em; // line-height x 表示行数で高さを指定
+  }
+}
+.video {
+  width: 360px;
+  height: 250px;
+  background-color: #000;
+  margin: 0 auto;
+  &__text {
+    font-size: 16px;
+  }
+}
+
+.movie {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__search {
+      margin-right: 30px;
+    }
+  }
+}
+
+.find {
+  padding: 16px 20vw;
+  top: 60px;
+  left: 0%;
+  width: 100vw;
+  background-color: #000;
+  position: fixed;
+}
+.search {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  &__btn {
+    padding: 4px 10px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    background-color: #3ac;
+    white-space: nowrap;
+  }
+  &__input {
+    margin-right: 20px;
+  }
+  &__result {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    li {
+      margin: 12px 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      height: 24px;
+      overflow: hidden;
+    }
+  }
+}
+
+.display {
+  display: none;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Youtube app</title>
+  </head>
+  <body class="movie">
+    <header class="header">
+      <a href="index.html">
+        <img class="header__back" src="./images/back.svg" alt="back" />
+      </a>
+      <img class="header__search" src="./images/Search.svg" alt="Search" />
+    </header>
+    <main class="main">
+      <div class="find display">
+        <form class="search">
+          <input type="search" class="search__input" />
+          <button class="search__btn">検索</button>
+        </form>
+        <ul class="search__result"></ul>
+      </div>
+      <h2 class="main__title">検索結果:<span class="result__text"></span></h2>
+      <div class="card"></div>
+    </main>
+
+    <!-- <footer class="footer">
+      <img class="footer__jes" src="./images/footer__jes.svg" alt="jes" />
+    </footer> -->
+    <script src="./js/result.js"></script>
+  </body>
+</html>
