@@ -1,4 +1,4 @@
-let Genre = "音楽";
+let Genre = "こっちのけんと";
 
 const key = "AIzaSyBFCqGb2dKuDBC5eLcuhrecQesJ5VgRu_Y"; // 自分のキーに書き換えます。
 const num = 5;
